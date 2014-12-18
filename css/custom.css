@@ -1,3 +1,9 @@
+.mirror {
+    display: block;
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 .data-science-badge {
     margin-left: auto;
     margin-right: auto;
@@ -26,4 +32,19 @@
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+}
+.tool-description-header {
+    font-size: 150%;
+    font-weight: bold;
+}
+.data-science-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/a.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
