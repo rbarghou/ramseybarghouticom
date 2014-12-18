@@ -1,0 +1,29 @@
+.data-science-badge {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background: rgba(30, 30, 30, .3);
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 1.0);
+    border-style: solid;
+    color: #FFF;
+    vertical-align: middle;
+    text-align: center;
+}
+.data-science-badge p {
+    line-height: 150px;
+    font-size: 200%;
+    color: rgba(255, 255, 255, 1.0);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
