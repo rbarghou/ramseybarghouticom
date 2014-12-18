@@ -15,4 +15,4 @@ Data Scientist | Full-Stack Developer | Programmer
 
 ## Copyright and License
 
-Copyright 2014 Ramsey Barghouti
+Copyright &copy; 2014 Ramsey Barghouti
