@@ -1,14 +1,14 @@
 @import "grayscale.less";
-
-
-body {background: url(../img/footer_lodyas.png) scroll;}
-.intro {background: url(../img/intro-bg.png) no-repeat bottom center scroll;
--webkit-background-size: cover;
+ body {
+    background: url(../img/footer_lodyas.png) scroll;
+}
+.intro {
+    background: url(../img/intro-bg.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
 .mirror {
     display: block;
     -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -27,7 +27,8 @@ body {background: url(../img/footer_lodyas.png) scroll;}
     background: rgba(30, 30, 30, .3);
     border-width: 1px;
     border-color: @dkgray;
-    border-style: solid;
+
+border-style: solid;
     color: #FFF;
     vertical-align: middle;
     text-align: center;
@@ -54,37 +55,27 @@ body {background: url(../img/footer_lodyas.png) scroll;}
     color: #fff;
     background: none;
 }
-
-
-/*BADGES*/
-
-.data-science-badge#python {background: url(../img/icons/python-logo-color.png) no-repeat center center;}
-.data-science-badge#octave {background: url(../img/icons/gnuOctave-logo.png) no-repeat center center;}
-.data-science-badge#scipy {background: url(../img/icons/scipy.png) no-repeat center center;}
-.data-science-badge#sklearn {background: url(../img/icons/sklearn-logo-colors.png) no-repeat center center;}
-.data-science-badge#pandas {background: url(../img/icons/pandas.png) no-repeat center center;}
-.data-science-badge#nltk {background: url(../img/icons/nltk.jpg) #000 no-repeat 16px 10px;}
-
-
-
-
-
 .content-section {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+h1.brand-heading,
+p.intro-text {
+    text-shadow: 0px 0px 100px@dark;
 
-h1.brand-heading, p.intro-text {
-  text-shadow: 0px 0px 100px @dark;
 }
-
-
 .nav > li:last-child {
     padding-right: 30px;
 }
-
 @media(max-width:1000px) {
     .nav > li > a {
-        font-size:12px;
+        font-size: 10px;
+    }
+    .nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav > li:last-child {
+        padding-right: 30px;
     }
 }

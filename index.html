@@ -16,7 +16,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="less/custom.less" rel="stylesheet/less">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
 
@@ -35,7 +35,7 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body ng-app="ramseybarghouticom" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -65,7 +65,7 @@
                     <a class="page-scroll" href="#developer">Developer</a>
                 </li>
                 <li>
-                    <a href="file/Ramsey_Barghouti_Resume.pdf" download>Resume</a>
+                    <a href="file/Ramsey_Barghouti_Resume.pdf" download><i class="fa fa-download"></i> Resume</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -76,205 +76,23 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Ramsey Barghouti</h1>
-                        <p class="intro-text">Data Scientist | Full-Stack Developer | Programmer</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <header intro class="intro">
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Who am I?</h2>
-                <p>
-                    I am a Data Scientist with a variety of experiences and skills. I build light-weight tools, sites, apps and systems and I customize them to the needs of the users. I can help you break down big complicated problems into smaller easier to solve problems. By breaking your problems down into managable pieces, I can help you get the most from your project.
-
-                </p>
-            </div>
-        </div>
-    </section>
+    <section about id="about" class="container content-section text-center"></section>
 
     <!-- Data Science Section Section -->
-    <section id="datascience" class="content-section text-center">
-        <div class="data-science-section">
-            <div class="container data-science-badges">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-                    <h2>Data Science</h2>
-                    <p>I use the best and most collaborative tools in Data Science.</p>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="python">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Python</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="octave">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Octave</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="scipy">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Scipy</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="sklearn">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Sklearn</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="pandas">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Pandas</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="nltk">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">NLTK</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
+    <section datascience id="datascience" class="content-section text-center"></section>
 
     <!-- Data Science Section Section -->
-    <section id="developer" class="content-section text-center">
-        <div class="developer-section">
-            <div class="container data-science-badges">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-                    <h2>Full Stack Developer</h2>
-                    <p>Rapid prototypes. Seemless integration. Smart design.</p>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="x">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Node</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="x">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Spring</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="x">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Django</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="x">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Angular</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="x">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">D3</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <div class="data-science-badge" id="x">
-                            <p></p>
-                        </div>
-                        <p class="tool-description-header">Bootstrap</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                    </div>
-                    <p>And many more...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
+    <section developer id="developer" class="content-section text-center"></section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Ramsey Barghouti</h2>
-                <p>Drop me a line to get going on awesome projects.</p>
-                <p><a href="mailto:ramsey.barghouti@gmail.com">ramsey.barghouti@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/ramseybarghouti" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/rbarghou" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/103644271755404279174/posts" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <section contact id="contact" class="container content-section text-center"></section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Ramsey Barghouti 2014</p>
-        </div>
-    </footer>
+    <footer copyright></footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
