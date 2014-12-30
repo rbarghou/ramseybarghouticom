@@ -3,27 +3,33 @@
         {
             "title": "Node",
             "iconUrl": "img/icons/nodejs-logo.svg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "url": "http://nodejs.org/",
+            "description": "New to the development world, Node gives developers the ability to prototype rapidly and collaborate efficiently."
         }, {
             "title": "Spring",
             "iconUrl": "img/icons/spring-logo.svg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "url": "http://spring.io/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         }, {
             "title": "Django",
             "iconUrl": "img/icons/django-logo.svg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "url": "https://www.djangoproject.com/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         }, {
             "title": "Angular",
             "iconUrl": "img/icons/angular-logo.svg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "url": "https://angularjs.org/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         }, {
             "title": "D3",
             "iconUrl": "img/icons/d3-logo.svg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "url": "http://d3js.org/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         }, {
             "title": "Bootstrap",
             "iconUrl": "img/icons/bootstrap-logo.svg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "url": "http://getbootstrap.com/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         }
     ]
 }
