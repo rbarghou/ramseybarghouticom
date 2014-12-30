@@ -1,0 +1,29 @@
+{
+    "badges": [
+        {
+            "title": "Python",
+            "iconUrl": "img/icons/python-logo.svg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        }, {
+            "title": "Octave",
+            "iconUrl": "img/icons/octave-logo.svg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        }, {
+            "title": "Scipy",
+            "iconUrl": "img/icons/scipy-logo.svg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        }, {
+            "title": "Sklearn",
+            "iconUrl": "img/icons/sklearn-logo.svg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        }, {
+            "title": "Pandas",
+            "iconUrl": "img/icons/pandas-logo.svg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        }, {
+            "title": "NLTK",
+            "iconUrl": "img/icons/nltk-logo.svg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        }
+    ]
+}
