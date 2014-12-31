@@ -318,7 +318,7 @@ body {
 }
 .data-science-badge {
   background: rgba(30, 30, 30, 0.3);
-  border-width: 1px;
+  border-width: 2px;
   border-color: #909090;
   border-style: solid;
   border-radius: 50%;
@@ -331,7 +331,7 @@ body {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
+  padding: 3px;
   position: relative;
   text-align: center;
   vertical-align: middle;
@@ -348,6 +348,7 @@ body {
   font-size: 90%;
   margin-bottom: 50px;
   text-align: center;
+  height: 70px;
 }
 .data-science-section {
   width: 100%;
