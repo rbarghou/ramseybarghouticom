@@ -5,7 +5,9 @@ Data Scientist | Full-Stack Developer | Programmer
 ## Technologies used in this site:
 
 * Bootstrap
-* Greyscale Template (https://github.com/IronSummitMedia/startbootstrap-grayscale)
+* [Greyscale Template](https://github.com/IronSummitMedia/startbootstrap-grayscale) - modified and customized
+* Angular JS
+* JQuery
 
 ## Creator
 
