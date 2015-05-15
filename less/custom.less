@@ -1,0 +1,82 @@
+@import "grayscale.less";
+ body {
+    background: url(../img/footer_lodyas.png) scroll;
+}
+.intro {
+    background: url(../img/intro-bg.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.mirror {
+    display: block;
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.data-science-badge {
+    background: rgba(30, 30, 30, .3);
+    border-width: 2px;
+    border-color: @dkgray;
+
+border-style: solid;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 1.0);
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    img {
+        width: 67%;
+    }
+}
+.tool-description-header {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tool-description-body {
+    font-size: 90%;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 70px;
+}
+.data-science-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: none;
+}
+.content-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h1.brand-heading,
+p.intro-text {
+    text-shadow: 0px 0px 100px@dark;
+
+}
+.nav > li:last-child {
+    padding-right: 30px;
+}
+@media(max-width:1000px) {
+    .nav > li > a {
+        font-size: 10px;
+    }
+    .nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav > li:last-child {
+        padding-right: 30px;
+    }
+}

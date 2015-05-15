@@ -1,0 +1,35 @@
+{
+    "badges": [
+        {
+            "title": "Python",
+            "iconUrl": "img/icons/python-logo.svg",
+            "url": "https://www.python.org/",
+            "description": "Python is more than a language, it's access to a mature and active community of development."
+        }, {
+            "title": "Octave",
+            "iconUrl": "img/icons/octave-logo.svg",
+            "url": "https://www.gnu.org/software/octave/",
+            "description": "Octave and Matlab provide an efficient environment for rapid prototyping of algorithms and statistical methods."
+        }, {
+            "title": "Scipy",
+            "iconUrl": "img/icons/scipy-logo.svg",
+            "url": "http://www.scipy.org/",
+            "description": "Scipy along with Numpy and other related software packages provide great toolbelts for data analysis and processing."
+        }, {
+            "title": "Sklearn",
+            "iconUrl": "img/icons/sklearn-logo.svg",
+            "url": "http://scikit-learn.org/stable/",
+            "description": "Sklearn has become the standard python toolkit for building interesting and complicated machine learning systems."
+        }, {
+            "title": "Pandas",
+            "iconUrl": "img/icons/pandas-logo.svg",
+            "url": "http://pandas.pydata.org/",
+            "description": "Pandas is a great system for connecting data sources to statistical analysis systems."
+        }, {
+            "title": "NLTK",
+            "iconUrl": "img/icons/nltk-logo.svg",
+            "url": "http://www.nltk.org/",
+            "description": "NLTK gives access to a wide array of text processing systems like tokenizers, part of speech taggers, parsers, classifiers."
+        }
+    ]
+}

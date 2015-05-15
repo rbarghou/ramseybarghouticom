@@ -1,0 +1,35 @@
+{
+    "badges": [
+        {
+            "title": "Node",
+            "iconUrl": "img/icons/nodejs-logo.svg",
+            "url": "http://nodejs.org/",
+            "description": "Vibrant Community • Modern Webapp Server • Rapid Results"
+        }, {
+            "title": "Spring",
+            "iconUrl": "img/icons/spring-logo.svg",
+            "url": "http://spring.io/",
+            "description": "Scalable • Robust Integration • Proven Technology"
+        }, {
+            "title": "Django",
+            "iconUrl": "img/icons/django-logo.svg",
+            "url": "https://www.djangoproject.com/",
+            "description": "Python Applications • Easy Deployment • Great Packages"
+        }, {
+            "title": "Angular",
+            "iconUrl": "img/icons/angular-logo.svg",
+            "url": "https://angularjs.org/",
+            "description": "Modular Front-End • Reuable • Readable"
+        }, {
+            "title": "D3",
+            "iconUrl": "img/icons/d3-logo.svg",
+            "url": "http://d3js.org/",
+            "description": "Flexible Visualizations • Interactive • Approachable Code"
+        }, {
+            "title": "Bootstrap",
+            "iconUrl": "img/icons/bootstrap-logo.svg",
+            "url": "http://getbootstrap.com/",
+            "description": "Beautiful Web • Easy Templating • Rapid Integration"
+        }
+    ]
+}
