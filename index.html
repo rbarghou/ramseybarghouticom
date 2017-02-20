@@ -19,21 +19,130 @@
 
 <body ng-app="ramseybarghouticom" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <div navigation></div>
-    <header intro class="intro"></header>
-    <section about id="about" class="container content-section text-center"></section>
-    <section datascience id="datascience" class="content-section text-center"></section>
-    <section developer id="developer" class="content-section text-center"></section>
-    <section contact id="contact" class="container content-section text-center"></section>
-    <footer copyright></footer>
+  <div navigation></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+  <header class="intro">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="brand-heading">Ramsey Barghouti</h1>
+            <p class="intro-text">Data Scientist | Full-Stack Developer | Programmer</p>
+            <a href="#about" class="btn btn-circle page-scroll">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <script src="js/app.js"></script>
+  <section id="about" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Who am I?</h2>
+        <p>
+          I am a Data Scientist with a variety of experiences and skills.
+          I build light-weight tools, sites, apps and systems and I
+          customize them to the needs of the users. I can help you
+          break down big complicated problems into smaller easier to
+          solve problems. By breaking your problems down into managable
+          pieces, I can help you get the most from your project.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="datascience" class="content-section text-center">
+    <div ng-controller="dataScienceSectionController" class="data-science-section">
+      <div class="container data-science-badges">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+          <h2>Data Science</h2>
+          <p>I use the best and most collaborative tools in Data Science.</p>
+          <div ng-repeat="badge in badges" class="col-md-4 col-sm-4 col-xs-6">
+            <a href="{{badge.url}}" target="_blank" class="data-science-badge">
+              <img src="{{badge.iconUrl}}"></img>
+            </a>
+            <p class="tool-description-header">{{badge.title}}</p>
+            <p class="tool-description-body">{{badge.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="developer" class="content-section text-center">
+    <div ng-controller="developerSectionController" class="developer-section">
+      <div class="container data-science-badges">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+          <h2>Full Stack Developer</h2>
+          <p>Rapid prototypes. Seemless integration. Smart design.</p>
+          <div ng-repeat="badge in badges" class="col-md-4 col-sm-4 col-xs-6">
+            <a href="{{badge.url}}" target="_blank" class="data-science-badge">
+              <img src="{{badge.iconUrl}}"></img>
+            </a>
+            <p class="tool-description-header">{{badge.title}}</p>
+            <p class="tool-description-body">{{badge.description}}</p>
+          </div>
+          <p>And many more...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Contact Ramsey Barghouti</h2>
+        <p>Drop me a line to get going on awesome projects.</p>
+        <p><a href="mailto:ramsey.barghouti@gmail.com">ramsey.barghouti@gmail.com</a>
+        </p>
+        <ul class="list-inline banner-social-buttons">
+          <li>
+            <a href="https://twitter.com/ramseybarghouti"
+               target="_blank"
+               class="btn btn-default btn-lg">
+               <i class="fa fa-twitter fa-fw"></i>
+               &nbsp;
+               <span class="network-name">Twitter</span>
+             </a>
+          </li>
+          <li>
+            <a href="https://github.com/rbarghou"
+               target="_blank"
+               class="btn btn-default btn-lg">
+               <i class="fa fa-github fa-fw"></i>
+               &nbsp;
+               <span class="network-name">Github</span>
+             </a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/103644271755404279174/posts"
+               target="_blank"
+               class="btn btn-default btn-lg">
+               <i class="fa fa-google-plus fa-fw"></i>
+               &nbsp;
+               <span class="network-name">Google+</span>
+             </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Ramsey Barghouti 2017</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+
+  <script src="js/app.js"></script>
 
 </body>
 
