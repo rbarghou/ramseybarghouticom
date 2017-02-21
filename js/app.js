@@ -30,9 +30,7 @@ angular
     .controller('dataScienceSectionController', ['$scope', '$http',
         function ($scope, $http) {
             $http.get('data/DataScienceBadgeData.json', {
-                headers: {
-                    'Content-Type': 'text/javascript'
-                }
+                headers: {'Content-Type': 'text/javascript'}
             }).success(function (data, status, headers, config) {
                 $scope.badges = data.badges;
             });
@@ -40,9 +38,7 @@ angular
     .controller('developerSectionController', ['$scope', '$http',
         function ($scope, $http) {
             $http.get('data/DeveloperBadgeData.json', {
-                headers: {
-                    'Content-Type': 'text/javascript'
-                }
+                headers: {'Content-Type': 'text/javascript'}
             }).success(function (data, status, headers, config) {
                 $scope.badges = data.badges;
             });
