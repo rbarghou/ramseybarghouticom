@@ -24,13 +24,6 @@ angular
       $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
       });
-
-      // $http.get('data/DataScienceBadgeData.json', {
-      //   headers: {'Content-Type': 'text/javascript'}
-      // }).success(function (data, status, headers, config){
-      //   $scope.badges = data.badges;
-      // });
-
     }
   ])
   .controller('dataScienceSectionController', ['$scope', '$http',
