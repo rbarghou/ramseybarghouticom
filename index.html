@@ -100,14 +100,17 @@
   </section>
 
   <section id="datascience" class="content-section text-center">
-    <div ng-controller="dataScienceSectionController" class="data-science-section">
+    <div class="data-science-section">
       <div class="container data-science-badges">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
           <h2>Data Science</h2>
           <p>I use the best and most collaborative tools in Data Science.</p>
 
-          <div ng-repeat="badge in badges" class="col-md-4 col-sm-4 col-xs-6">
-            <a href="{{badge.url}}" target="_blank" class="data-science-badge">
+          <div ng-repeat="badge in dataScienceBadges"
+               class="col-md-4 col-sm-4 col-xs-6">
+            <a href="{{badge.url}}"
+               target="_blank"
+               class="data-science-badge">
               <img src="{{badge.iconUrl}}"></img>
             </a>
             <p class="tool-description-header">{{badge.title}}</p>
@@ -120,12 +123,13 @@
   </section>
 
   <section id="developer" class="content-section text-center">
-    <div ng-controller="developerSectionController" class="developer-section">
+    <div class="developer-section">
       <div class="container data-science-badges">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
           <h2>Full Stack Developer</h2>
           <p>Rapid prototypes. Seemless integration. Smart design.</p>
-          <div ng-repeat="badge in badges" class="col-md-4 col-sm-4 col-xs-6">
+          <div ng-repeat="badge in developerBadges"
+               class="col-md-4 col-sm-4 col-xs-6">
             <a href="{{badge.url}}" target="_blank" class="data-science-badge">
               <img src="{{badge.iconUrl}}"></img>
             </a>
