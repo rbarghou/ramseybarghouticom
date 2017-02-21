@@ -24,11 +24,11 @@
 
 </head>
 
-<body ng-app="ramseybarghouticom"
-      id="page-top"
+<body id="page-top"
+      ng-app="ramseybarghouticom"
+      ng-controller="ramseybarghouticomController"
       data-spy="scroll"
-      data-target=".navbar-fixed-top"
-      ng-controller="ramseybarghouticomController">
+      data-target=".navbar-fixed-top">
   <div>
     <nav class="navbar navbar-custom navbar-fixed-top"
          role="navigation">
@@ -49,15 +49,10 @@
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"><a href="#page-top"></a></li>
-
           <li><a class="page-scroll" href="#about">About Me</a></li>
-
           <li><a class="page-scroll" href="#datascience">Data Science</a></li>
-
           <li><a class="page-scroll" href="#developer">Developer</a></li>
-
           <li><a class="page-scroll" href="#contact">Contact</a></li>
-
           <li><a href="file/Ramsey_Barghouti_Resume.pdf" download>
             <i class="fa fa-download"></i> Resume</a>
           </li>
