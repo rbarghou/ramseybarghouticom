@@ -14,15 +14,29 @@
     <link href='http://fonts.googleapis.com/css?family=Lora|Montserrat' rel='stylesheet' type='text/css'>
 
     <title>Ramsey Barghouti</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
 
 </head>
 
-<body ng-app="ramseybarghouticom" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<body ng-app="ramseybarghouticom"
+      id="page-top"
+      data-spy="scroll"
+      data-target=".navbar-fixed-top"
+      ng-controller="ramseybarghouticomController">
   <div>
-    <nav ng-controller="navbarController" class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top"
+         role="navigation">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <button type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-main-collapse">
           <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand page-scroll" href="#page-top">
@@ -91,6 +105,7 @@
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
           <h2>Data Science</h2>
           <p>I use the best and most collaborative tools in Data Science.</p>
+
           <div ng-repeat="badge in badges" class="col-md-4 col-sm-4 col-xs-6">
             <a href="{{badge.url}}" target="_blank" class="data-science-badge">
               <img src="{{badge.iconUrl}}"></img>
@@ -98,6 +113,7 @@
             <p class="tool-description-header">{{badge.title}}</p>
             <p class="tool-description-body">{{badge.description}}</p>
           </div>
+
         </div>
       </div>
     </div>
@@ -168,13 +184,6 @@
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
-
-  <script src="js/app.js"></script>
 
 </body>
 
