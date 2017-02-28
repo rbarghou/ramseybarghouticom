@@ -1,6 +1,6 @@
 angular
 .module('ramseybarghouticom', [])
-.controller('ramseybarghouticomController', ['$scope',
+.controller('homeController', ['$scope',
   function($scope){
     // jQuery to collapse the navbar on scroll
     $(window).scroll(function(){
